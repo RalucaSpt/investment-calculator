@@ -24,5 +24,6 @@ OnSubmit() {
     expectedReturn: +this.enteredExpectedReturn,
     duration: +this.enteredDuration
   });
+  console.log('submitted');
 }
 }
